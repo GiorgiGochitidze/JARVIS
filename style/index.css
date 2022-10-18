@@ -115,7 +115,7 @@ body{
     border-style: dashed;
     border-width: 8px;
     border-color:  #7dc2ff #7dc2ff #2092f5 #2092f5;
-    animation: animatecircle2 7s linear infinite;
+    animation: animatecircle2 3s linear infinite;
     border-bottom-color: black;
     border-right-color: black;
     width: 500px;
@@ -130,7 +130,7 @@ body{
     border-style: solid;
     border-width: 5px;
     border-color: #2092f5 #2092f5 #7dc2ff #7dc2ff;
-    animation: animatecircle3 5s linear infinite;
+    animation: animatecircle3 2s linear infinite;
     border-top-color: black;
     border-left-color: black;
     width: 400px;
@@ -144,7 +144,7 @@ body{
     border-style: dashed;
     border-width: 4px;
     border-color:  #7dc2ff #7dc2ff #2092f5 #2092f5;
-    animation: animatecircle1 3s linear infinite;
+    animation: animatecircle1 1s linear infinite;
     border-bottom-color: black;
     border-right-color: black;
     width: 300px;
@@ -158,7 +158,7 @@ body{
     border-style: solid;
     border-width: 3px;
     border-color: #2092f5 #2092f5 #7dc2ff #7dc2ff;
-    animation: animatecircle1 2s linear infinite;
+    animation: animatecircle1 0.5s linear infinite;
     border-top-color: black;
     border-left-color: black;
     width: 200px;
@@ -175,6 +175,70 @@ body{
     animation: animatecircle1 5s linear infinite;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circlea{
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua aqua cyan cyan;
+    animation: animatecircle1 5s linear infinite;
+    border-top-color: black;
+    border-left-color: black;
+    width: 200px;
+    height: 200px;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circleb{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: aqua aqua cyan cyan;
+    animation: animatecircle1 1s linear infinite;
+    border-bottom-color: black;
+    border-right-color: black;
+    width: 150px;
+    height: 150px;
+    left: 40px;
+    top: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circlec{
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua aqua lightskyblue lightskyblue;
+    animation: animatecircle1 1.5s linear infinite;
+    border-bottom-color: black;
+    border-right-color: black;
+    width: 100px;
+    height: 100px;
+    left: 70px;
+    top: 70px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circled{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: aqua aqua lightskyblue lightskyblue;
+    animation: animatecircle1 2s linear infinite;
+    border-bottom-color: black;
+    border-right-color: black;
+    width: 50px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
     border-radius: 50%;
     box-sizing: border-box;
     position: absolute;

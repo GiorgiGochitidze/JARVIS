@@ -172,6 +172,11 @@ if(input.value.includes("გახსენი გუგლი") || input.value.
     input.value = "";
 }
 
+if(input.value.includes("ვინ არის") || input.value.includes("ვინაა")){
+    window.open(`https://ka.wikipedia.org/wiki/`, "_blank")
+    input.value = "";
+}
+
 if(input.value.includes("გახსენი მთავარი გვერდი") || input.value.includes("გახსენი მთავარი") || input.value.includes("მთავარი")
 || input.value.includes("ჯარვის მთავარი") || input.value.includes("ჯარვის გახსენი მთავარი" || input.value.trim() == "გადამიყვანე მთავარ გვერდზე")){
     window.open(`https://giorgigochitidze.github.io/GabrielaShop/index.html`, "_self")
